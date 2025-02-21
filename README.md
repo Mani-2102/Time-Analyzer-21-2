@@ -1,3 +1,4 @@
+Created on Feb 22, 2025 for --Time duration analysis 
 Time Duration Analysis Web
   A Time Duration Analysis Web application is a tool designed to track, analyze, and visualize time-based events. 
   It allows users to record events (such as clicks or tasks) and generates insights like total time, average duration, and frequency.
@@ -13,3 +14,5 @@ Key Features:
     Frontend: HTML, CSS, JavaScript
     Database: SQLite/MySQL (optional)
     Visualization: Chart.js / Matplotlib
+  
+Update on --
