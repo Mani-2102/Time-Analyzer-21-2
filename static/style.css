@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Fix alignment issue */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Home Button Styling */
+.header button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.header button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Title Styling */
+.header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Canvas Styling */
+canvas {
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 10px;
+}

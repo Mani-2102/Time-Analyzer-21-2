@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Duration Analyzer</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <div class="header">
+        <button onclick="window.location.href='{{ url_for('home') }}'">Home</button>
+        <h1>Time Duration Analyzer</h1>
+    </div>
+    <div class="content">
+        <div id="page1">
+            <h2>Welcome to Analyzer</h2>
+            <p>For every click, the count will increase, and we will analyze the data.</p>
+            <button id="count-button">Count</button>
+            <p id="count-display">Count: 0</p>
+            <button onclick="window.location.href='{{ url_for('analysis') }}'">Go to Analysis</button>
+
+        </div>
+        <div id="page2" style="display: none;">
+            <h2>Page 2: Analysis</h2>
+            <p id="total-time">Total Time: 0s</p>
+            <p id="average-time">Average Time: 0s</p>
+            <p id="min-time">Min Time: 0s</p>
+            <p id="max-time">Max Time: 0s</p>
+            <p id="total-count">Total Count: 0</p>
+            <canvas id="line-chart" width="400" height="200"></canvas>
+            <canvas id="histogram-chart" width="400" height="200"></canvas>
+            <button id="save-button">Save</button>
+            <button id="export-button">Export</button>
+            <button id="back-button">Back to Counting</button>
+        </div>
+    </div>
+</body>
+</html>
