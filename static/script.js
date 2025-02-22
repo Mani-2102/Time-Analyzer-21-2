@@ -1,3 +1,5 @@
+// Created on Feb20, 2025
+// --
 document.addEventListener("DOMContentLoaded", function () {
     let count = 0;
     let timestamps = [];
